@@ -5,6 +5,7 @@ services:
 before_install:
   - docker build -t deekode/docker-react -f Dockerfile.dev .
 
+ 
 deploy:
   provider: elasticbeanstalk
   region: "us-east-2"
